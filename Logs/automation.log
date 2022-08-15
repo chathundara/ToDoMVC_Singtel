@@ -1,0 +1,401 @@
+2022-08-15 14:01:08,952 DEBUG [main] InternalLoggerFactory:89 - Using Log4J as the default logging framework
+2022-08-15 14:01:08,959 DEBUG [main] ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2022-08-15 14:01:08,961 DEBUG [main] ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2022-08-15 14:01:08,965 DEBUG [main] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@702ed190
+2022-08-15 14:01:08,979 DEBUG [main] PlatformDependent0:495 - -Dio.netty.noUnsafe: false
+2022-08-15 14:01:08,979 DEBUG [main] PlatformDependent0:998 - Java version: 17
+2022-08-15 14:01:08,981 DEBUG [main] PlatformDependent0:136 - sun.misc.Unsafe.theUnsafe: available
+2022-08-15 14:01:08,981 DEBUG [main] PlatformDependent0:160 - sun.misc.Unsafe.copyMemory: available
+2022-08-15 14:01:08,982 DEBUG [main] PlatformDependent0:192 - sun.misc.Unsafe.storeFence: available
+2022-08-15 14:01:08,982 DEBUG [main] PlatformDependent0:235 - java.nio.Buffer.address: available
+2022-08-15 14:01:08,983 DEBUG [main] PlatformDependent0:319 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2022-08-15 14:01:08,983 DEBUG [main] PlatformDependent0:384 - java.nio.Bits.unaligned: available, true
+2022-08-15 14:01:08,984 DEBUG [main] PlatformDependent0:451 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @67784306
+2022-08-15 14:01:08,985 DEBUG [main] PlatformDependent0:481 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2022-08-15 14:01:08,985 DEBUG [main] PlatformDependent:1120 - sun.misc.Unsafe: available
+2022-08-15 14:01:08,993 DEBUG [main] PlatformDependent:1231 - maxDirectMemory: 4213178368 bytes (maybe)
+2022-08-15 14:01:08,994 DEBUG [main] PlatformDependent:1250 - -Dio.netty.tmpdir: C:\Users\DHANUS~1\AppData\Local\Temp (java.io.tmpdir)
+2022-08-15 14:01:08,994 DEBUG [main] PlatformDependent:1329 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-08-15 14:01:08,995 DEBUG [main] PlatformDependent:1080 - Platform: Windows
+2022-08-15 14:01:08,995 DEBUG [main] PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2022-08-15 14:01:08,996 DEBUG [main] PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-08-15 14:01:08,997 DEBUG [main] CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2022-08-15 14:01:08,997 DEBUG [main] PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2022-08-15 14:01:09,004 DEBUG [main] PlatformDependent:971 - org.jctools-core.MpscChunkedArrayQueue: available
+2022-08-15 14:01:09,018 DEBUG [main] InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-08-15 14:01:09,018 DEBUG [main] InternalThreadLocalMap:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-08-15 14:01:09,154 DEBUG [main] JdkSslContext:83 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2022-08-15 14:01:09,154 DEBUG [main] JdkSslContext:84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-08-15 14:01:09,169 DEBUG [main] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2022-08-15 14:01:09,175 DEBUG [main] NioEventLoop:109 - -Dio.netty.noKeySetOptimization: false
+2022-08-15 14:01:09,175 DEBUG [main] NioEventLoop:110 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-08-15 14:01:09,208 DEBUG [main] PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 16
+2022-08-15 14:01:09,208 DEBUG [main] PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 16
+2022-08-15 14:01:09,209 DEBUG [main] PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+2022-08-15 14:01:09,209 DEBUG [main] PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+2022-08-15 14:01:09,209 DEBUG [main] PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+2022-08-15 14:01:09,209 DEBUG [main] PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2022-08-15 14:01:09,209 DEBUG [main] PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2022-08-15 14:01:09,209 DEBUG [main] PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-08-15 14:01:09,209 DEBUG [main] PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-08-15 14:01:09,209 DEBUG [main] PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-08-15 14:01:09,209 DEBUG [main] PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+2022-08-15 14:01:09,210 DEBUG [main] PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-08-15 14:01:09,218 DEBUG [main] ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2022-08-15 14:01:09,218 DEBUG [main] ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-08-15 14:01:09,218 DEBUG [main] ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-08-15 14:01:09,456 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 18332 (auto-detected)
+2022-08-15 14:01:09,458 DEBUG [Forwarding newSession on session null to remote] NetUtil:136 - -Djava.net.preferIPv4Stack: false
+2022-08-15 14:01:09,458 DEBUG [Forwarding newSession on session null to remote] NetUtil:137 - -Djava.net.preferIPv6Addresses: false
+2022-08-15 14:01:09,466 DEBUG [Forwarding newSession on session null to remote] NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-08-15 14:01:09,467 DEBUG [Forwarding newSession on session null to remote] NetUtil:191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-08-15 14:01:09,488 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: 28:11:a8:ff:fe:73:20:53 (auto-detected)
+2022-08-15 14:01:09,535 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2022-08-15 14:01:09,535 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2022-08-15 14:01:09,535 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@50c3661a
+2022-08-15 14:01:09,551 DEBUG [AsyncHttpClient-1-2] Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-08-15 14:01:09,551 DEBUG [AsyncHttpClient-1-2] Recycler:86 - -Dio.netty.recycler.ratio: 8
+2022-08-15 14:01:09,552 DEBUG [AsyncHttpClient-1-2] Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+2022-08-15 14:01:09,552 DEBUG [AsyncHttpClient-1-2] Recycler:88 - -Dio.netty.recycler.blocking: false
+2022-08-15 14:01:10,212 DEBUG [AsyncHttpClient-1-2] Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-08-15 14:01:10,302 DEBUG [main] ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0xd51aabefc586f03b
+2022-08-15 14:01:12,699  INFO [main] Steps:74 - Item Added: Go shopping
+2022-08-15 14:01:12,788  INFO [main] Steps:119 - verifyActiveList: Go shopping
+2022-08-15 14:01:12,852  INFO [main] Steps:136 - verifyCompletedList: Go shopping
+2022-08-15 14:01:12,872  INFO [main] Steps:142 - itemsLeftCount: 1
+2022-08-15 14:01:12,902  INFO [main] Steps:161 - checkTabsDisplayed: All
+2022-08-15 14:01:12,918  INFO [main] Steps:161 - checkTabsDisplayed: Active
+2022-08-15 14:01:12,934  INFO [main] Steps:161 - checkTabsDisplayed: Completed
+2022-08-15 14:01:16,224  INFO [main] Steps:74 - Item Added: Go shopping
+2022-08-15 14:01:16,275  INFO [main] Steps:74 - Item Added: Play Cricket
+2022-08-15 14:01:16,352  INFO [main] Steps:119 - verifyActiveList: Go shopping
+2022-08-15 14:01:16,418  INFO [main] Steps:119 - verifyActiveList: Play Cricket
+2022-08-15 14:01:16,474  INFO [main] Steps:136 - verifyCompletedList: Go shopping
+2022-08-15 14:01:16,520  INFO [main] Steps:136 - verifyCompletedList: Play Cricket
+2022-08-15 14:01:16,538  INFO [main] Steps:142 - itemsLeftCount: 2
+2022-08-15 14:01:16,567  INFO [main] Steps:161 - checkTabsDisplayed: All
+2022-08-15 14:01:16,579  INFO [main] Steps:161 - checkTabsDisplayed: Active
+2022-08-15 14:01:16,594  INFO [main] Steps:161 - checkTabsDisplayed: Completed
+2022-08-15 14:01:19,939  INFO [main] Steps:74 - Item Added: Go shopping
+2022-08-15 14:01:19,990  INFO [main] Steps:74 - Item Added: Play Cricket
+2022-08-15 14:01:20,025  INFO [main] Steps:171 - completeAnItem: Go shopping
+2022-08-15 14:01:20,104  INFO [main] Steps:119 - verifyActiveList: Play Cricket
+2022-08-15 14:01:20,177  INFO [main] Steps:136 - verifyCompletedList: Play Cricket
+2022-08-15 14:01:20,233  INFO [main] Steps:119 - verifyActiveList: Go shopping
+2022-08-15 14:01:20,281  INFO [main] Steps:136 - verifyCompletedList: Go shopping
+2022-08-15 14:01:20,298  INFO [main] Steps:142 - itemsLeftCount: 1
+2022-08-15 14:01:20,368  INFO [main] Steps:161 - checkTabsDisplayed: All
+2022-08-15 14:01:20,384  INFO [main] Steps:161 - checkTabsDisplayed: Active
+2022-08-15 14:01:20,400  INFO [main] Steps:161 - checkTabsDisplayed: Completed
+2022-08-15 14:01:23,125  INFO [main] Steps:74 - Item Added: Go shopping
+2022-08-15 14:01:23,173  INFO [main] Steps:74 - Item Added: Play Cricket
+2022-08-15 14:01:23,209  INFO [main] Steps:171 - completeAnItem: Go shopping
+2022-08-15 14:01:23,246  INFO [main] Steps:197 - tabsNavigation: Active
+2022-08-15 14:01:23,309  INFO [main] Steps:119 - verifyActiveList: Go shopping
+2022-08-15 14:01:23,361  INFO [main] Steps:119 - verifyActiveList: Play Cricket
+2022-08-15 14:01:23,425  INFO [main] Steps:136 - verifyCompletedList: Play Cricket
+2022-08-15 14:01:23,443  INFO [main] Steps:142 - itemsLeftCount: 1
+2022-08-15 14:01:26,205  INFO [main] Steps:74 - Item Added: Go shopping
+2022-08-15 14:01:26,254  INFO [main] Steps:74 - Item Added: Play Cricket
+2022-08-15 14:01:26,287  INFO [main] Steps:171 - completeAnItem: Go shopping
+2022-08-15 14:01:26,323  INFO [main] Steps:197 - tabsNavigation: Completed
+2022-08-15 14:01:26,380  INFO [main] Steps:136 - verifyCompletedList: Play Cricket
+2022-08-15 14:01:26,455  INFO [main] Steps:119 - verifyActiveList: Play Cricket
+2022-08-15 14:01:26,507  INFO [main] Steps:136 - verifyCompletedList: Play Cricket
+2022-08-15 14:01:26,524  INFO [main] Steps:142 - itemsLeftCount: 1
+2022-08-15 14:01:29,868  INFO [main] Steps:74 - Item Added: Go shopping
+2022-08-15 14:01:29,919  INFO [main] Steps:74 - Item Added: Play Cricket
+2022-08-15 14:01:29,953  INFO [main] Steps:171 - completeAnItem: Go shopping
+2022-08-15 14:01:29,953  INFO [main] Steps:197 - tabsNavigation: Clear completed
+2022-08-15 14:01:30,028  INFO [main] Steps:119 - verifyActiveList: Play Cricket
+2022-08-15 14:01:30,097  INFO [main] Steps:136 - verifyCompletedList: Play Cricket
+2022-08-15 14:01:33,467  INFO [main] Steps:74 - Item Added: Go shopping
+2022-08-15 14:01:33,519  INFO [main] Steps:74 - Item Added: Play Cricket
+2022-08-15 14:01:33,554  INFO [main] Steps:171 - completeAnItem: Go shopping
+2022-08-15 14:01:33,578  INFO [main] Steps:171 - completeAnItem: Go shopping
+2022-08-15 14:01:33,659  INFO [main] Steps:119 - verifyActiveList: Go shopping
+2022-08-15 14:01:33,722  INFO [main] Steps:136 - verifyCompletedList: Go shopping
+2022-08-15 14:01:36,884  INFO [main] Steps:74 - Item Added: Go shopping
+2022-08-15 14:01:36,934  INFO [main] Steps:74 - Item Added: Play Cricket
+2022-08-15 14:01:36,971  INFO [main] Steps:171 - completeAnItem: Go shopping
+2022-08-15 14:01:38,268  INFO [main] Steps:95 - verifyAllList: Go shopping
+2022-08-15 14:01:38,322  INFO [main] Steps:95 - verifyAllList: Read a book
+2022-08-15 14:01:38,387  INFO [main] Steps:136 - verifyCompletedList: Read a book
+2022-08-15 14:01:41,139  INFO [main] Steps:74 - Item Added: Go shopping
+2022-08-15 14:01:41,228  INFO [main] Steps:74 - Item Added: Play Cricket
+2022-08-15 14:01:41,264  INFO [main] Steps:171 - completeAnItem: Go shopping
+2022-08-15 14:01:42,544  INFO [main] Steps:95 - verifyAllList: Play Cricket
+2022-08-15 14:01:42,600  INFO [main] Steps:95 - verifyAllList: Play a game
+2022-08-15 14:01:42,668  INFO [main] Steps:136 - verifyCompletedList: Play a game
+2022-08-15 14:01:45,903  INFO [main] Steps:74 - Item Added: shopping
+2022-08-15 14:01:46,093  INFO [main] Steps:119 - verifyActiveList: shopping
+2022-08-15 14:19:06,412 DEBUG [main] InternalLoggerFactory:89 - Using Log4J as the default logging framework
+2022-08-15 14:19:06,417 DEBUG [main] ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2022-08-15 14:19:06,417 DEBUG [main] ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2022-08-15 14:19:06,420 DEBUG [main] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@751e664e
+2022-08-15 14:19:06,430 DEBUG [main] PlatformDependent0:495 - -Dio.netty.noUnsafe: false
+2022-08-15 14:19:06,431 DEBUG [main] PlatformDependent0:998 - Java version: 17
+2022-08-15 14:19:06,432 DEBUG [main] PlatformDependent0:136 - sun.misc.Unsafe.theUnsafe: available
+2022-08-15 14:19:06,433 DEBUG [main] PlatformDependent0:160 - sun.misc.Unsafe.copyMemory: available
+2022-08-15 14:19:06,433 DEBUG [main] PlatformDependent0:192 - sun.misc.Unsafe.storeFence: available
+2022-08-15 14:19:06,434 DEBUG [main] PlatformDependent0:235 - java.nio.Buffer.address: available
+2022-08-15 14:19:06,434 DEBUG [main] PlatformDependent0:319 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2022-08-15 14:19:06,435 DEBUG [main] PlatformDependent0:384 - java.nio.Bits.unaligned: available, true
+2022-08-15 14:19:06,435 DEBUG [main] PlatformDependent0:451 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @6737fd8f
+2022-08-15 14:19:06,436 DEBUG [main] PlatformDependent0:481 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2022-08-15 14:19:06,436 DEBUG [main] PlatformDependent:1120 - sun.misc.Unsafe: available
+2022-08-15 14:19:06,443 DEBUG [main] PlatformDependent:1231 - maxDirectMemory: 4213178368 bytes (maybe)
+2022-08-15 14:19:06,444 DEBUG [main] PlatformDependent:1250 - -Dio.netty.tmpdir: C:\Users\DHANUS~1\AppData\Local\Temp (java.io.tmpdir)
+2022-08-15 14:19:06,445 DEBUG [main] PlatformDependent:1329 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-08-15 14:19:06,445 DEBUG [main] PlatformDependent:1080 - Platform: Windows
+2022-08-15 14:19:06,446 DEBUG [main] PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2022-08-15 14:19:06,446 DEBUG [main] PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-08-15 14:19:06,447 DEBUG [main] CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2022-08-15 14:19:06,447 DEBUG [main] PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2022-08-15 14:19:06,452 DEBUG [main] PlatformDependent:971 - org.jctools-core.MpscChunkedArrayQueue: available
+2022-08-15 14:19:06,465 DEBUG [main] InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-08-15 14:19:06,465 DEBUG [main] InternalThreadLocalMap:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-08-15 14:19:06,594 DEBUG [main] JdkSslContext:83 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2022-08-15 14:19:06,594 DEBUG [main] JdkSslContext:84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-08-15 14:19:06,610 DEBUG [main] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2022-08-15 14:19:06,621 DEBUG [main] NioEventLoop:109 - -Dio.netty.noKeySetOptimization: false
+2022-08-15 14:19:06,622 DEBUG [main] NioEventLoop:110 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-08-15 14:19:06,659 DEBUG [main] PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 16
+2022-08-15 14:19:06,660 DEBUG [main] PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 16
+2022-08-15 14:19:06,660 DEBUG [main] PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+2022-08-15 14:19:06,660 DEBUG [main] PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+2022-08-15 14:19:06,660 DEBUG [main] PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+2022-08-15 14:19:06,660 DEBUG [main] PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2022-08-15 14:19:06,661 DEBUG [main] PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2022-08-15 14:19:06,661 DEBUG [main] PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-08-15 14:19:06,661 DEBUG [main] PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-08-15 14:19:06,661 DEBUG [main] PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-08-15 14:19:06,661 DEBUG [main] PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+2022-08-15 14:19:06,661 DEBUG [main] PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-08-15 14:19:06,669 DEBUG [main] ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2022-08-15 14:19:06,669 DEBUG [main] ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-08-15 14:19:06,669 DEBUG [main] ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-08-15 14:19:06,921 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 4636 (auto-detected)
+2022-08-15 14:19:06,923 DEBUG [Forwarding newSession on session null to remote] NetUtil:136 - -Djava.net.preferIPv4Stack: false
+2022-08-15 14:19:06,923 DEBUG [Forwarding newSession on session null to remote] NetUtil:137 - -Djava.net.preferIPv6Addresses: false
+2022-08-15 14:19:06,930 DEBUG [Forwarding newSession on session null to remote] NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-08-15 14:19:06,931 DEBUG [Forwarding newSession on session null to remote] NetUtil:191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-08-15 14:19:06,951 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: 28:11:a8:ff:fe:73:20:53 (auto-detected)
+2022-08-15 14:19:06,988 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2022-08-15 14:19:06,988 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2022-08-15 14:19:06,988 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2bc41010
+2022-08-15 14:19:07,004 DEBUG [AsyncHttpClient-1-2] Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-08-15 14:19:07,004 DEBUG [AsyncHttpClient-1-2] Recycler:86 - -Dio.netty.recycler.ratio: 8
+2022-08-15 14:19:07,004 DEBUG [AsyncHttpClient-1-2] Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+2022-08-15 14:19:07,004 DEBUG [AsyncHttpClient-1-2] Recycler:88 - -Dio.netty.recycler.blocking: false
+2022-08-15 14:19:07,686 DEBUG [AsyncHttpClient-1-2] Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-08-15 14:19:07,770 DEBUG [main] ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x0b01b7c097a4ce3c
+2022-08-15 14:19:11,058  INFO [main] Steps:78 - Item Added: Go shopping
+2022-08-15 14:19:11,146  INFO [main] Steps:120 - verifyActiveList: Go shopping
+2022-08-15 14:19:11,211  INFO [main] Steps:137 - verifyCompletedList: Go shopping
+2022-08-15 14:19:11,234  INFO [main] Steps:143 - itemsLeftCount: 1
+2022-08-15 14:19:11,267  INFO [main] Steps:162 - checkTabsDisplayed: All
+2022-08-15 14:19:11,283  INFO [main] Steps:162 - checkTabsDisplayed: Active
+2022-08-15 14:19:11,297  INFO [main] Steps:162 - checkTabsDisplayed: Completed
+2022-08-15 14:19:14,723  INFO [main] Steps:78 - Item Added: Go shopping
+2022-08-15 14:19:14,777  INFO [main] Steps:78 - Item Added: Play Cricket
+2022-08-15 14:19:14,857  INFO [main] Steps:120 - verifyActiveList: Go shopping
+2022-08-15 14:19:14,921  INFO [main] Steps:120 - verifyActiveList: Play Cricket
+2022-08-15 14:19:14,995  INFO [main] Steps:137 - verifyCompletedList: Go shopping
+2022-08-15 14:19:15,040  INFO [main] Steps:137 - verifyCompletedList: Play Cricket
+2022-08-15 14:19:15,056  INFO [main] Steps:143 - itemsLeftCount: 2
+2022-08-15 14:19:15,090  INFO [main] Steps:162 - checkTabsDisplayed: All
+2022-08-15 14:19:15,108  INFO [main] Steps:162 - checkTabsDisplayed: Active
+2022-08-15 14:19:15,123  INFO [main] Steps:162 - checkTabsDisplayed: Completed
+2022-08-15 14:19:17,897  INFO [main] Steps:78 - Item Added: Go shopping
+2022-08-15 14:19:17,953  INFO [main] Steps:78 - Item Added: Play Cricket
+2022-08-15 14:19:17,988  INFO [main] Steps:172 - completeAnItem: Go shopping
+2022-08-15 14:19:18,066  INFO [main] Steps:120 - verifyActiveList: Play Cricket
+2022-08-15 14:19:18,137  INFO [main] Steps:137 - verifyCompletedList: Play Cricket
+2022-08-15 14:19:18,201  INFO [main] Steps:120 - verifyActiveList: Go shopping
+2022-08-15 14:19:18,249  INFO [main] Steps:137 - verifyCompletedList: Go shopping
+2022-08-15 14:19:18,267  INFO [main] Steps:143 - itemsLeftCount: 1
+2022-08-15 14:19:18,322  INFO [main] Steps:203 - veryfyClearCompletedLink: true
+2022-08-15 14:19:18,354  INFO [main] Steps:162 - checkTabsDisplayed: All
+2022-08-15 14:19:18,368  INFO [main] Steps:162 - checkTabsDisplayed: Active
+2022-08-15 14:19:18,382  INFO [main] Steps:162 - checkTabsDisplayed: Completed
+2022-08-15 14:19:21,146  INFO [main] Steps:78 - Item Added: Go shopping
+2022-08-15 14:19:21,201  INFO [main] Steps:78 - Item Added: Play Cricket
+2022-08-15 14:19:21,235  INFO [main] Steps:172 - completeAnItem: Go shopping
+2022-08-15 14:19:21,271  INFO [main] Steps:198 - tabsNavigation: Active
+2022-08-15 14:19:21,336  INFO [main] Steps:120 - verifyActiveList: Go shopping
+2022-08-15 14:19:21,389  INFO [main] Steps:120 - verifyActiveList: Play Cricket
+2022-08-15 14:19:21,455  INFO [main] Steps:137 - verifyCompletedList: Play Cricket
+2022-08-15 14:19:21,472  INFO [main] Steps:143 - itemsLeftCount: 1
+2022-08-15 14:19:24,287  INFO [main] Steps:78 - Item Added: Go shopping
+2022-08-15 14:19:24,339  INFO [main] Steps:78 - Item Added: Play Cricket
+2022-08-15 14:19:24,374  INFO [main] Steps:172 - completeAnItem: Go shopping
+2022-08-15 14:19:24,408  INFO [main] Steps:198 - tabsNavigation: Completed
+2022-08-15 14:19:24,467  INFO [main] Steps:137 - verifyCompletedList: Play Cricket
+2022-08-15 14:19:24,548  INFO [main] Steps:120 - verifyActiveList: Play Cricket
+2022-08-15 14:19:24,598  INFO [main] Steps:137 - verifyCompletedList: Play Cricket
+2022-08-15 14:19:24,615  INFO [main] Steps:143 - itemsLeftCount: 1
+2022-08-15 14:19:28,020  INFO [main] Steps:78 - Item Added: Go shopping
+2022-08-15 14:19:28,069  INFO [main] Steps:78 - Item Added: Play Cricket
+2022-08-15 14:19:28,105  INFO [main] Steps:172 - completeAnItem: Go shopping
+2022-08-15 14:19:28,106  INFO [main] Steps:198 - tabsNavigation: Clear completed
+2022-08-15 14:19:28,186  INFO [main] Steps:120 - verifyActiveList: Play Cricket
+2022-08-15 14:19:28,251  INFO [main] Steps:137 - verifyCompletedList: Play Cricket
+2022-08-15 14:19:31,644  INFO [main] Steps:78 - Item Added: Go shopping
+2022-08-15 14:19:31,702  INFO [main] Steps:78 - Item Added: Play Cricket
+2022-08-15 14:19:31,738  INFO [main] Steps:172 - completeAnItem: Go shopping
+2022-08-15 14:19:31,761  INFO [main] Steps:172 - completeAnItem: Go shopping
+2022-08-15 14:19:31,838  INFO [main] Steps:120 - verifyActiveList: Go shopping
+2022-08-15 14:19:31,895  INFO [main] Steps:137 - verifyCompletedList: Go shopping
+2022-08-15 14:19:35,264  INFO [main] Steps:78 - Item Added: Go shopping
+2022-08-15 14:19:35,314  INFO [main] Steps:78 - Item Added: Play Cricket
+2022-08-15 14:19:35,347  INFO [main] Steps:172 - completeAnItem: Go shopping
+2022-08-15 14:19:35,556  INFO [main] Steps:221 - Edit Item to: Go shopping-->Read a book
+2022-08-15 14:19:35,644  INFO [main] Steps:98 - verifyAllList: Go shopping
+2022-08-15 14:19:35,692  INFO [main] Steps:98 - verifyAllList: Read a book
+2022-08-15 14:19:35,751  INFO [main] Steps:137 - verifyCompletedList: Read a book
+2022-08-15 14:19:38,386  INFO [main] Steps:78 - Item Added: Go shopping
+2022-08-15 14:19:38,440  INFO [main] Steps:78 - Item Added: Play Cricket
+2022-08-15 14:19:38,478  INFO [main] Steps:172 - completeAnItem: Go shopping
+2022-08-15 14:19:38,691  INFO [main] Steps:221 - Edit Item to: Play Cricket-->Play a game
+2022-08-15 14:19:38,765  INFO [main] Steps:98 - verifyAllList: Play Cricket
+2022-08-15 14:19:38,815  INFO [main] Steps:98 - verifyAllList: Play a game
+2022-08-15 14:19:38,876  INFO [main] Steps:137 - verifyCompletedList: Play a game
+2022-08-15 14:19:41,557  INFO [main] Steps:78 - Item Added: shopping
+2022-08-15 14:19:41,736  INFO [main] Steps:236 - deleteAnItem: shopping
+2022-08-15 14:19:41,767  INFO [main] Steps:120 - verifyActiveList: shopping
+2022-08-15 14:35:17,193 DEBUG [main] InternalLoggerFactory:89 - Using Log4J as the default logging framework
+2022-08-15 14:35:17,200 DEBUG [main] ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2022-08-15 14:35:17,200 DEBUG [main] ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2022-08-15 14:35:17,204 DEBUG [main] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@702ed190
+2022-08-15 14:35:17,216 DEBUG [main] PlatformDependent0:495 - -Dio.netty.noUnsafe: false
+2022-08-15 14:35:17,216 DEBUG [main] PlatformDependent0:998 - Java version: 17
+2022-08-15 14:35:17,218 DEBUG [main] PlatformDependent0:136 - sun.misc.Unsafe.theUnsafe: available
+2022-08-15 14:35:17,219 DEBUG [main] PlatformDependent0:160 - sun.misc.Unsafe.copyMemory: available
+2022-08-15 14:35:17,219 DEBUG [main] PlatformDependent0:192 - sun.misc.Unsafe.storeFence: available
+2022-08-15 14:35:17,219 DEBUG [main] PlatformDependent0:235 - java.nio.Buffer.address: available
+2022-08-15 14:35:17,220 DEBUG [main] PlatformDependent0:319 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2022-08-15 14:35:17,220 DEBUG [main] PlatformDependent0:384 - java.nio.Bits.unaligned: available, true
+2022-08-15 14:35:17,221 DEBUG [main] PlatformDependent0:451 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @67784306
+2022-08-15 14:35:17,222 DEBUG [main] PlatformDependent0:481 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2022-08-15 14:35:17,222 DEBUG [main] PlatformDependent:1120 - sun.misc.Unsafe: available
+2022-08-15 14:35:17,230 DEBUG [main] PlatformDependent:1231 - maxDirectMemory: 4213178368 bytes (maybe)
+2022-08-15 14:35:17,231 DEBUG [main] PlatformDependent:1250 - -Dio.netty.tmpdir: C:\Users\DHANUS~1\AppData\Local\Temp (java.io.tmpdir)
+2022-08-15 14:35:17,232 DEBUG [main] PlatformDependent:1329 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-08-15 14:35:17,232 DEBUG [main] PlatformDependent:1080 - Platform: Windows
+2022-08-15 14:35:17,233 DEBUG [main] PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2022-08-15 14:35:17,233 DEBUG [main] PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-08-15 14:35:17,234 DEBUG [main] CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2022-08-15 14:35:17,234 DEBUG [main] PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2022-08-15 14:35:17,239 DEBUG [main] PlatformDependent:971 - org.jctools-core.MpscChunkedArrayQueue: available
+2022-08-15 14:35:17,252 DEBUG [main] InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-08-15 14:35:17,252 DEBUG [main] InternalThreadLocalMap:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-08-15 14:35:17,386 DEBUG [main] JdkSslContext:83 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2022-08-15 14:35:17,386 DEBUG [main] JdkSslContext:84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-08-15 14:35:17,403 DEBUG [main] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2022-08-15 14:35:17,411 DEBUG [main] NioEventLoop:109 - -Dio.netty.noKeySetOptimization: false
+2022-08-15 14:35:17,411 DEBUG [main] NioEventLoop:110 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-08-15 14:35:17,453 DEBUG [main] PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 16
+2022-08-15 14:35:17,453 DEBUG [main] PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 16
+2022-08-15 14:35:17,453 DEBUG [main] PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+2022-08-15 14:35:17,453 DEBUG [main] PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+2022-08-15 14:35:17,453 DEBUG [main] PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+2022-08-15 14:35:17,453 DEBUG [main] PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2022-08-15 14:35:17,453 DEBUG [main] PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2022-08-15 14:35:17,454 DEBUG [main] PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-08-15 14:35:17,454 DEBUG [main] PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-08-15 14:35:17,454 DEBUG [main] PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-08-15 14:35:17,454 DEBUG [main] PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+2022-08-15 14:35:17,454 DEBUG [main] PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-08-15 14:35:17,462 DEBUG [main] ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2022-08-15 14:35:17,462 DEBUG [main] ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-08-15 14:35:17,462 DEBUG [main] ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-08-15 14:35:17,727 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 31436 (auto-detected)
+2022-08-15 14:35:17,729 DEBUG [Forwarding newSession on session null to remote] NetUtil:136 - -Djava.net.preferIPv4Stack: false
+2022-08-15 14:35:17,729 DEBUG [Forwarding newSession on session null to remote] NetUtil:137 - -Djava.net.preferIPv6Addresses: false
+2022-08-15 14:35:17,736 DEBUG [Forwarding newSession on session null to remote] NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-08-15 14:35:17,737 DEBUG [Forwarding newSession on session null to remote] NetUtil:191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-08-15 14:35:17,757 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: 28:11:a8:ff:fe:73:20:53 (auto-detected)
+2022-08-15 14:35:17,790 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2022-08-15 14:35:17,791 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2022-08-15 14:35:17,791 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@50c3661a
+2022-08-15 14:35:17,803 DEBUG [AsyncHttpClient-1-2] Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-08-15 14:35:17,803 DEBUG [AsyncHttpClient-1-2] Recycler:86 - -Dio.netty.recycler.ratio: 8
+2022-08-15 14:35:17,804 DEBUG [AsyncHttpClient-1-2] Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+2022-08-15 14:35:17,804 DEBUG [AsyncHttpClient-1-2] Recycler:88 - -Dio.netty.recycler.blocking: false
+2022-08-15 14:35:18,457 DEBUG [AsyncHttpClient-1-2] Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-08-15 14:35:18,550 DEBUG [main] ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x08b40105f12d27ed
+2022-08-15 14:35:20,739  INFO [main] Steps:75 - Item Added: Go shopping
+2022-08-15 14:35:20,834  INFO [main] Steps:117 - verifyActiveList: Go shopping
+2022-08-15 14:35:20,899  INFO [main] Steps:134 - verifyCompletedList: Go shopping
+2022-08-15 14:35:20,922  INFO [main] Steps:140 - itemsLeftCount: 1
+2022-08-15 14:35:20,954  INFO [main] Steps:159 - checkTabsDisplayed: All
+2022-08-15 14:35:20,970  INFO [main] Steps:159 - checkTabsDisplayed: Active
+2022-08-15 14:35:20,987  INFO [main] Steps:159 - checkTabsDisplayed: Completed
+2022-08-15 14:35:23,608  INFO [main] Steps:75 - Item Added: Go shopping
+2022-08-15 14:35:23,668  INFO [main] Steps:75 - Item Added: Play Cricket
+2022-08-15 14:35:23,748  INFO [main] Steps:117 - verifyActiveList: Go shopping
+2022-08-15 14:35:23,814  INFO [main] Steps:117 - verifyActiveList: Play Cricket
+2022-08-15 14:35:23,876  INFO [main] Steps:134 - verifyCompletedList: Go shopping
+2022-08-15 14:35:23,919  INFO [main] Steps:134 - verifyCompletedList: Play Cricket
+2022-08-15 14:35:23,936  INFO [main] Steps:140 - itemsLeftCount: 2
+2022-08-15 14:35:23,966  INFO [main] Steps:159 - checkTabsDisplayed: All
+2022-08-15 14:35:23,977  INFO [main] Steps:159 - checkTabsDisplayed: Active
+2022-08-15 14:35:23,991  INFO [main] Steps:159 - checkTabsDisplayed: Completed
+2022-08-15 14:35:26,623  INFO [main] Steps:75 - Item Added: Go shopping
+2022-08-15 14:35:26,678  INFO [main] Steps:75 - Item Added: Play Cricket
+2022-08-15 14:35:26,713  INFO [main] Steps:169 - completeAnItem: Go shopping
+2022-08-15 14:35:26,791  INFO [main] Steps:117 - verifyActiveList: Play Cricket
+2022-08-15 14:35:26,861  INFO [main] Steps:134 - verifyCompletedList: Play Cricket
+2022-08-15 14:35:26,918  INFO [main] Steps:117 - verifyActiveList: Go shopping
+2022-08-15 14:35:26,967  INFO [main] Steps:134 - verifyCompletedList: Go shopping
+2022-08-15 14:35:26,987  INFO [main] Steps:140 - itemsLeftCount: 1
+2022-08-15 14:35:27,043  INFO [main] Steps:200 - veryfyClearCompletedLink: true
+2022-08-15 14:35:27,076  INFO [main] Steps:159 - checkTabsDisplayed: All
+2022-08-15 14:35:27,092  INFO [main] Steps:159 - checkTabsDisplayed: Active
+2022-08-15 14:35:27,107  INFO [main] Steps:159 - checkTabsDisplayed: Completed
+2022-08-15 14:35:29,067  INFO [main] Steps:75 - Item Added: Go shopping
+2022-08-15 14:35:29,117  INFO [main] Steps:75 - Item Added: Play Cricket
+2022-08-15 14:35:29,152  INFO [main] Steps:169 - completeAnItem: Go shopping
+2022-08-15 14:35:29,188  INFO [main] Steps:195 - tabsNavigation: Active
+2022-08-15 14:35:29,249  INFO [main] Steps:117 - verifyActiveList: Go shopping
+2022-08-15 14:35:29,300  INFO [main] Steps:117 - verifyActiveList: Play Cricket
+2022-08-15 14:35:29,371  INFO [main] Steps:134 - verifyCompletedList: Play Cricket
+2022-08-15 14:35:29,393  INFO [main] Steps:140 - itemsLeftCount: 1
+2022-08-15 14:35:31,390  INFO [main] Steps:75 - Item Added: Go shopping
+2022-08-15 14:35:31,444  INFO [main] Steps:75 - Item Added: Play Cricket
+2022-08-15 14:35:31,480  INFO [main] Steps:169 - completeAnItem: Go shopping
+2022-08-15 14:35:31,522  INFO [main] Steps:195 - tabsNavigation: Completed
+2022-08-15 14:35:31,578  INFO [main] Steps:134 - verifyCompletedList: Play Cricket
+2022-08-15 14:35:31,650  INFO [main] Steps:117 - verifyActiveList: Play Cricket
+2022-08-15 14:35:31,698  INFO [main] Steps:134 - verifyCompletedList: Play Cricket
+2022-08-15 14:35:31,714  INFO [main] Steps:140 - itemsLeftCount: 1
+2022-08-15 14:35:34,297  INFO [main] Steps:75 - Item Added: Go shopping
+2022-08-15 14:35:34,349  INFO [main] Steps:75 - Item Added: Play Cricket
+2022-08-15 14:35:34,392  INFO [main] Steps:169 - completeAnItem: Go shopping
+2022-08-15 14:35:34,392  INFO [main] Steps:195 - tabsNavigation: Clear completed
+2022-08-15 14:35:34,473  INFO [main] Steps:117 - verifyActiveList: Play Cricket
+2022-08-15 14:35:34,542  INFO [main] Steps:134 - verifyCompletedList: Play Cricket
+2022-08-15 14:35:37,147  INFO [main] Steps:75 - Item Added: Go shopping
+2022-08-15 14:35:37,196  INFO [main] Steps:75 - Item Added: Play Cricket
+2022-08-15 14:35:37,230  INFO [main] Steps:169 - completeAnItem: Go shopping
+2022-08-15 14:35:37,256  INFO [main] Steps:169 - completeAnItem: Go shopping
+2022-08-15 14:35:37,340  INFO [main] Steps:117 - verifyActiveList: Go shopping
+2022-08-15 14:35:37,404  INFO [main] Steps:134 - verifyCompletedList: Go shopping
+2022-08-15 14:35:40,011  INFO [main] Steps:75 - Item Added: Go shopping
+2022-08-15 14:35:40,060  INFO [main] Steps:75 - Item Added: Play Cricket
+2022-08-15 14:35:40,095  INFO [main] Steps:169 - completeAnItem: Go shopping
+2022-08-15 14:35:40,297  INFO [main] Steps:218 - Edit Item to: Go shopping-->Read a book
+2022-08-15 14:35:40,380  INFO [main] Steps:95 - verifyAllList: Go shopping
+2022-08-15 14:35:40,425  INFO [main] Steps:95 - verifyAllList: Read a book
+2022-08-15 14:35:40,484  INFO [main] Steps:134 - verifyCompletedList: Read a book
+2022-08-15 14:35:42,435  INFO [main] Steps:75 - Item Added: Go shopping
+2022-08-15 14:35:42,492  INFO [main] Steps:75 - Item Added: Play Cricket
+2022-08-15 14:35:42,529  INFO [main] Steps:169 - completeAnItem: Go shopping
+2022-08-15 14:35:42,723  INFO [main] Steps:218 - Edit Item to: Play Cricket-->Play a game
+2022-08-15 14:35:42,803  INFO [main] Steps:95 - verifyAllList: Play Cricket
+2022-08-15 14:35:42,861  INFO [main] Steps:95 - verifyAllList: Play a game
+2022-08-15 14:35:42,930  INFO [main] Steps:134 - verifyCompletedList: Play a game
+2022-08-15 14:35:44,860  INFO [main] Steps:75 - Item Added: shopping
+2022-08-15 14:35:45,031  INFO [main] Steps:233 - deleteAnItem: shopping
+2022-08-15 14:35:45,059  INFO [main] Steps:117 - verifyActiveList: shopping
